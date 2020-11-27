@@ -1,3 +1,4 @@
+'../lib/game_status.rb'
 
 # Helper Method
 def position_taken?(board, index)
@@ -37,5 +38,3 @@ end
 
 def full?(board)
   board.all? |index|
-  
-  
